@@ -15,3 +15,31 @@ body {
 footer {
     margin: 50px 0;
 }
+
+.img-logo {
+  display: block;
+  max-width: 100%;
+  max-height: 120px;
+  height: auto;
+  bottom: 0;
+}
+
+.navbar-inverse {
+    background-color: #FFF;
+    border-color: #D6D6D6;
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+  height: 125px;
+
+}
+
+.navbar-header {
+	margin-top:3px;
+}
+
+.nav {
+	padding-top:40px;
+}
