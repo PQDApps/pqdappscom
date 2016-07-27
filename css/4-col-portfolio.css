@@ -26,6 +26,19 @@ span.text-content {
   opacity: 0;
 }
 
+.navlinks {
+  padding: 0px 40px;
+  margin: auto;
+  float: left;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+}
+
+.navlinks a {
+  color: white;
+}
+
 .img-logo {
   display: block;
   max-width: 100%;
@@ -91,6 +104,9 @@ body {
       background: #00869E;
       font: 15px/20px 'Lucida Sans',sans-serif;
       padding-top: 70px;
+    }
+    .padd {
+      padding-top: 40px;
     }
     .wrap {
       overflow: hidden;
@@ -177,9 +193,24 @@ body {
     } 
     @media only screen and (max-width : 480px) {
       /* Smartphone view: 1 tile */
+      .padd {
+        padding-top: 0px;
+      }
+      .navlinks {
+        padding: 0px 40px 20px;
+        margin: auto;
+        text-align: center;
+        display: block;
+        float: none;
+      }
       .box {
         width: 100%;
         padding-bottom: 100%;
+      }
+      .appBox{
+        width: 100%;
+        margin: auto;
+        text-align: center;
       }
       .img-logo {
         display: block;
@@ -214,6 +245,11 @@ body {
         width: 50%;
         padding-bottom: 50%;
       }
+      .appBox{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+      }
       .appcol-1{
            width:100%;
            padding-top:15px
@@ -225,11 +261,15 @@ body {
         width: 33.3%;
         padding-bottom: 33.3%;
       }
+      .appBox{
+        margin: auto;
+        text-align: center;
+      }
     }
     @media only screen and (max-width : 1290px) and (min-width : 1051px) {
       /* Medium desktop: 4 tiles */
       .box {
-        width: 25%;
+        width: 100%;
         padding-bottom: 25%;
       }
     }
