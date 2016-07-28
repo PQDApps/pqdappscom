@@ -178,6 +178,9 @@ body {
         float:left;
         vertical-align: middle;
     }
+    .linkbox:hover {
+      opacity: .8;
+    }
     .linkicon{
         max-width: 100%;
         padding-left: 10px;
